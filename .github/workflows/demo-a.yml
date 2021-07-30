@@ -1,4 +1,4 @@
-name: my workflow demo 
+name: workflow a (the new name) 
 
 on: [workflow_dispatch, push]
     
