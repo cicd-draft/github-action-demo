@@ -1,0 +1,16 @@
+name: workflow B
+
+on: [workflow_dispatch, push]
+    
+jobs:
+  my_first_job:
+    name: bbbb
+    runs-on: ubuntu-latest
+    steps:
+    - name: My step one
+      run: echo "Hello ,Github actions, I'm >>My step one<<"
+    - name: My step two
+      run: |
+        echooo "My step one begin..."
+        echo "doing..."
+        echo "Finished!!!"
